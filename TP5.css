@@ -1,0 +1,111 @@
+/*Ex1 */
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+	width: 50%;
+    border-collapse: collapse;
+    padding:10px;
+}
+
+th{background-color: blue;
+    color: white;
+    padding:20px;
+  }
+  
+td{
+    padding:20px;
+    height: 40px;
+    border-bottom: 1px solid;
+}
+.c1{
+	list-style-type:decimal;
+	margin:10px;
+	
+}
+.c2{
+	list-style-type:circle;
+	padding:10px
+}
+
+.c3{
+	list-style-type:upper-roman;
+	padding:10px
+}
+.c4{
+	list-style-type:lower-roman;
+	padding:10px
+}
+  
+/*Ex2 */
+div.stat{
+    border: 3px solid #73AD21;
+    top:50px;
+    left:40px;
+    position:static;
+    }    
+div.rel{
+    border: 3px solid #73AD21;
+    top:50px;
+    left:40px;
+    width:400px;
+    height:200px;
+	position:relative;
+    }    
+ div.absol{
+    border: 3px solid #73AD21;
+    top:60px;
+    right:0;
+    width:200px;
+    height:100px;
+    position:absolute;
+    }   
+ div.fix{
+    border: 3px solid #73AD21;
+    bottom:0px;
+    right:0px;
+	width:400px;
+    position:fixed;
+    }    
+     
+      
+ img{
+    width:200px;
+    height:200px;
+    margin-left:15px;
+    float:right;
+    }    
+ p{
+   clear:right;  
+    }  
+ .div1{
+	border:solid red;
+    margin:10px;
+    float:left;
+    width:200px;
+    height:50px;
+    
+    }    
+ .div2{
+    border:solid green;
+    clear:left;
+    }
+li{
+	display:inline;
+}
+ul{background-color:red;}
+	
+     
+ /*Ex3 */
+ div p{
+  background-color: orange;
+
+    }
+ div > p {
+  background-color: yellow;
+}
+ 
+ div + p {
+  background-color: orange;
+}

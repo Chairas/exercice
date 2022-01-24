@@ -1,0 +1,80 @@
+
+h1{
+   color:red; 
+   text-align:center;
+ 
+   text-decoration:underline;
+   text-shadow:3px 2px;
+    }
+	
+	
+	
+	#id1{
+    color:green;
+    text-align:center;
+    }    
+h1.class1{
+    color:blue;
+    text-align:left;
+    }  
+	
+	
+p.cl1{
+    color:green;
+	font-size:20px;
+    }    
+p.cl2{
+    color:rgb(60, 179, 113);
+	font-size:20px;
+    }    
+p.cl3{
+    color:#3cb371;
+	font-size:20px;
+    }
+	
+	
+a{
+  text-decoration:none;  
+    }
+   
+p.maj1{
+    text-transform:uppercase;
+    } 
+	
+	
+p.int1{
+    line-height:1.5;
+    }  
+	
+	
+ p.times{
+  font-family: Times New Roman;
+  font-size: 20px;
+}
+p.arial{
+  font-family: Arial;
+  font-size: 20px;
+  font-style: italic;
+}
+div {
+  background-color: green;
+  opacity: 0.7;
+}    
+body {
+
+  background-image: url("txt.jpg");
+ /* background-repeat: repeat-x repeat-y;*/
+ background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
+div.class1{
+  background-color: green;
+  opacity: 0.3;
+  border-style:solid;
+  border-width:medium;
+  border-color:red;
+ 
+  margin:25px 50px 75px 100px;
+  padding:50px 30px 50px 90px;
+} 
